@@ -1,5 +1,6 @@
 import React from 'react';
-import image from './src/images/Kaivon Tolooee Resume 2021 - Full Stack Programmer (1).pdf';
+
+
 
 const Navbar = () => {
 
@@ -20,14 +21,10 @@ const Navbar = () => {
         <a className="nav-item nav-link" href="#About">About Me</a>
         <a className="nav-item nav-link" href="#Work">My Projects</a>
         <a className="nav-item nav-link" href="#Contact">Contact Me</a>
-      </div>
-      <div className="sites">
-        <ul className="navbar">
-          <li><a href="https://github.com/kaivont85">GitHub</a></li>
-          <li><a href="https://www.instagram.com/kaivon_tolooee/">Instagram</a></li>
-          <li><a href="https://www.linkedin.com/in/kaivon-tolooee-483321204/">Linkedin</a></li>
-          <li><a href={image}>Resume</a></li>
-        </ul>
+        <li><a href="https://github.com/kaivont85">GitHub</a></li>
+        <li><a href="https://www.instagram.com/kaivon_tolooee/">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/kaivon-tolooee-483321204/">Linkedin</a></li>
+        <li><a href="https://drive.google.com/file/d/1I5ygdY0Xc52PTES0MdSVvOfxfJ8jOPOR/view?ths=true">Resume</a></li>
       </div>
     </div>
   </div>

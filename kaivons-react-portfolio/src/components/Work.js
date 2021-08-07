@@ -1,4 +1,7 @@
 import React from 'react';
+import image from './images/hike5280';
+import image2 from './images/photodrop';
+import image3 from './images/notetaker';
 
 export default class work extends React.Component{ 
   render() {
@@ -10,7 +13,7 @@ export default class work extends React.Component{
             <div className="work-content">    
               <div className="row">
                 <div className="card" style={{width: '18rem'}}>
-                  <img src="assets/images/project1.png" className="card-img-top work-images" alt="project1 img" />
+                  <img src={image} className="card-img-top work-images" alt="project1 img" />
                   <div className="card-body">
                     <h5 className="card-title">Project #1</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -19,21 +22,21 @@ export default class work extends React.Component{
                   </div>
                 </div>
                 <div className="card" style={{width: '18rem'}}>
-                  <img src="assets/images/passwordgen.png" className="card-img-top work-images" alt="passwordgen" />
+                  <img src={image2} className="card-img-top work-images" alt="passwordgen" />
                   <div className="card-body">
-                    <h5 className="card-title">Password Gen</h5>
+                    <h5 className="card-title">Photo Drop</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://kaivont85.github.io/Password-Generator/" className="btn btn-primary">Deployed App</a>
-                    <a href="https://github.com/kaivont85/Password-Generator" className="btn btn-primary">GitHub Repo</a>
+                    <a href="https://young-gorge-62627.herokuapp.com/" className="btn btn-primary">Deployed App</a>
+                    <a href="https://github.com/kaivont85/Group-3-Project" className="btn btn-primary">GitHub Repo</a>
                   </div>
                 </div>
                 <div className="card" style={{width: '18rem'}}>
-                  <img src="assets/images/coderefractor.png" className="card-img-top work-images" alt="coderefractor" />
+                  <img src={image3} className="card-img-top work-images" alt="coderefractor" />
                   <div className="card-body">
-                    <h5 className="card-title">Code Refractor</h5>
+                    <h5 className="card-title">Note Taker</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://kaivont85.github.io/Git-Code-Refactor/" className="btn btn-primary">Deployed App</a>
-                    <a href="https://github.com/kaivont85/Git-Code-Refactor" className="btn btn-primary">GitHub Repo</a>
+                    <a href="https://protected-cliffs-76829.herokuapp.com/" className="btn btn-primary">Deployed App</a>
+                    <a href="https://github.com/kaivont85/Note-Taker" className="btn btn-primary">GitHub Repo</a>
                   </div>
                 </div>
               </div>
