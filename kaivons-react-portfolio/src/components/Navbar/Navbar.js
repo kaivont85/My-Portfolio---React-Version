@@ -1,39 +1,46 @@
 import React from 'react';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import './FontAwesomeIcons/index'
+import image from './src/images/Kaivon Tolooee Resume 2021 - Full Stack Programmer (1).pdf';
+
+const Navbar = () => {
 
 
-
-
-
-export default class Navbar extends React.Component{
-  render()  {
     return (
       
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  {/* <a class="navbar-brand">Home</a> */}
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      
-      <a class="nav-item nav-link" href="#About">About Me</a>
-      <a class="nav-item nav-link" href="#Work">My Projects</a>
-      <a class="nav-item nav-link" href="#Contact">Contact Me</a>
-      {/* <a class="nav-item nav-link" href="#">Disabled</a>
-      <a class="nav-item nav-link" href="#">Disabled</a> */}
-      <a class="nav-item nav-link active" href="https://github.com/kaivont85">
-        fa-github-square
-        <FontAwesomeIcon icon="github-square" />
-        <span class="sr-only">(current)</span></a> 
+  {/**
+   *         nav links                                   sites
+   * 
+   */}
+  <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div className="navbar-nav">
+      <div className="nav-links">
+        <a className="nav-item nav-link" href="#About">About Me</a>
+        <a className="nav-item nav-link" href="#Work">My Projects</a>
+        <a className="nav-item nav-link" href="#Contact">Contact Me</a>
+      </div>
+      <div className="sites">
+        <ul className="navbar">
+          <li><a href="https://github.com/kaivont85">GitHub</a></li>
+          <li><a href="https://www.instagram.com/kaivon_tolooee/">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/in/kaivon-tolooee-483321204/">Linkedin</a></li>
+          <li><a href={image}>Resume</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>
             
           );
         }
-      };
+      ;
+
+export default Navbar;    
+
+      // fa-github-square, fa-linkedin, fa-envelope-square, fa-instagram
+
      
               //   <ul classname="main_menu">
               //     <li><a href="#about-me">About Me</a></li>

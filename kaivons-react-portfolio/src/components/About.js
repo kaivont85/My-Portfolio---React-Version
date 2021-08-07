@@ -1,14 +1,14 @@
 import React from 'react';
 import image from '../images/headshot.jpg';
 
-export default class About extends React.Component{
-    render() {
+const About = () => {
+    
       return (
         <div>
           <section id="about-me" className="heading1">About Me</section>
           <section id="branches">
             <div className="container">
-              <img className="img-me" src="./src/images/headshot.jpg" alt="me"  /></div>  
+              <img className="img-me" src={image} alt="me"  /></div>  
             <p className="text">My name is Kaivon Tolooee and I am a student currently enrolled at DU's Full Stack Coding Bootcamp.
               I enjoy listening to and playing music, spending time with family &amp; friends, cultures, languages,
               watching movies, meeting new people and being in nature and people watching.I am interested in learning, 
@@ -21,7 +21,9 @@ export default class About extends React.Component{
         </div>
       );
     }
-  };
+  ;
+
+export default About;
 
 
 
