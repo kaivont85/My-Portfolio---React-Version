@@ -1,4 +1,7 @@
 import React from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import './FontAwesomeIcons/index'
+
 
 
 
@@ -8,7 +11,7 @@ export default class Navbar extends React.Component{
     return (
       
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand">Home</a>
+  {/* <a class="navbar-brand">Home</a> */}
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -18,9 +21,12 @@ export default class Navbar extends React.Component{
       <a class="nav-item nav-link" href="#About">About Me</a>
       <a class="nav-item nav-link" href="#Work">My Projects</a>
       <a class="nav-item nav-link" href="#Contact">Contact Me</a>
-      <a class="nav-item nav-link" href="#">Disabled</a>
-      <a class="nav-item nav-link" href="#">Disabled</a>
-      <a class="nav-item nav-link active" href="https://github.com/kaivont85"><i class="fab fa-github-square"></i><span class="sr-only">(current)</span></a> 
+      {/* <a class="nav-item nav-link" href="#">Disabled</a>
+      <a class="nav-item nav-link" href="#">Disabled</a> */}
+      <a class="nav-item nav-link active" href="https://github.com/kaivont85">
+        fa-github-square
+        <FontAwesomeIcon icon="github-square" />
+        <span class="sr-only">(current)</span></a> 
     </div>
   </div>
 </nav>
