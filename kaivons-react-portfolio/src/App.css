@@ -1,25 +1,145 @@
-:root {
-  --script: "Kaushan Script", cursive;
-  --thin: "Raleway", sans-serif;
-  --thick: "Nanum Gothic", sans-serif;
-}
+
+
 
 body {
-  background-color: rgb(59, 64, 68);
-  color: rgb(231, 231, 231);
-  margin: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./images/back.jpg");
+  background-size: cover;
+ 
 }
 
-h2 {
-  font-family: var(--thick);
-  color: azure;
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: lightskyblue;
+  padding: 32px;
 }
 
-h3 {
-  font-family: var(--thin);
-  color: azure;
+header {
+  background-color: lightgray;
+  height: 150px;
+  padding: 4px;
+  flex-wrap: wrap;
 }
 
+header h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  line-height: 100px;
+
+}
+
+header h2 {
+  font-variant: small-caps;
+  text-align: center;
+  color: black;
+}
+
+.main_menu {
+  padding: 5px 0 5px 0;
+  text-align: center;
+  line-height: 32px;
+  background-color: whitesmoke;
+}
+
+ul.main_menu {
+  margin-top: 15px;
+}
+
+.main_menu li {
+  display: inline;
+  padding: 0 10px 0 10px;
+  font-size: 20px;
+}
+
+.main_menu li .fab {
+  display: inline-block;
+  padding: 12px 16px; 
+}
+
+.main_menu a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  font-variant: small-caps;
+  flex-wrap: wrap;
+}
+.main_menu a.active {
+  background-color: darkcyan;
+}
+
+.main_menu a:hover  {
+  color: darkcyan;
+}
+
+.heading1, .heading2, .heading3, .heading4 {
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+  flex-wrap: wrap;
+}  
+.heading1, .heading3 {
+  background-color: lightgray;
+}
+.heading2, .heading4 {
+  background-color: darkcyan;
+}
+.card {
+  padding: 25px;
+}
+
+.work-images {
+  width: 100px;
+  height: 100px;
+}
+
+  #branches {
+  padding: 20px 0;
+  background: #3498DB;
+  text-align: center;
+  color: #fff;
+  font-family: ‘Source Sans Pro’, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  text-rendering: optimizeLegibility;
+  }
+.img-me {
+  width: 250px;
+  background-position: left;
+}
+
+  .card {
+      display: inline-block;
+  }
+
+  .container {
+  max-width: 85%;
+  width: 960px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  }
+  
+  .heading {
+  margin: 0;
+  font-size: 2.6rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+  letter-spacing: 0.08rem;
+  }
+  
+  .text {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.08rem;
+  }
 
 
 
