@@ -3,6 +3,7 @@ import image from '../images/hike5280.png';
 import image2 from '../images/photodrop.png';
 import image3 from '../images/notetaker.png';
 
+
 const Work = () => { 
  
     return (
