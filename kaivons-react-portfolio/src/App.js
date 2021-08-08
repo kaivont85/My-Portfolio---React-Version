@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Contact from './components/Contact';
 import Work from './components/Work';
+import Footer from './components/Footer';
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import './App.css';
 
@@ -22,6 +23,8 @@ function App() {
         
 </Switch>
 </Router>
+<Footer />
+
      </div> 
     
   );
