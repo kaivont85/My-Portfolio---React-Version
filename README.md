@@ -18,6 +18,10 @@ My React Portfolio
 # Screenshots of pages working
 
 <img src="kaivons-react-portfolio/src/images/landingpage.png" alt="screenshot" style="max-width:100%;">
+<img src="kaivons-react-portfolio/src/images/myprojects.png" alt="screenshot" style="max-width:100%;">
+<img src="kaivons-react-portfolio/src/images/contact.png" alt="screenshot" style="max-width:100%;">
+<img src="kaivons-react-portfolio/src/images/footer.png" alt="screenshot" style="max-width:100%;">
+
 
 
 
