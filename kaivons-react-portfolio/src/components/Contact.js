@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default class Contact extends React.Component{
-    render() {
+const Contact = () => {
+   
       return (
         <div>
           <section id="contact" className="heading4">Contact</section>
@@ -15,8 +15,9 @@ export default class Contact extends React.Component{
         </div>
       );
     }
-  };
 
+
+  export default Contact;
 
 
 

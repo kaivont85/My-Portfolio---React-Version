@@ -1,10 +1,10 @@
 import React from 'react';
-import image from './images/hike5280';
-import image2 from './images/photodrop';
-import image3 from './images/notetaker';
+import image from '../images/hike5280.png';
+import image2 from '../images/photodrop.png';
+import image3 from '../images/notetaker.png';
 
-export default class work extends React.Component{ 
-  render() {
+const Work = () => { 
+ 
     return (
       <div>
         <section id="my-work" className="heading2">My Work</section>
@@ -43,5 +43,6 @@ export default class work extends React.Component{
             </div></div></section></div>
     );
   }
-};
+;
 
+export default Work;
